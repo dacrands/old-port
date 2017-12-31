@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.jumbotron {
+  height: 100vh;
+  background: #FFFF;
+  color: #6a6c77;
+  padding-top: 15%;
+}
+
+
+.skill {
+  height: 30vh;
+  padding-top: 1em;
+  padding-right: 0;
+}
+
+.python-box {
+  background: #853799;
+}
+
+.js-box {
+  background: #338a8c;
+}
+
+.html-box {
+  background: #5361ad;
+}
+
+.css-box {
+  background: #f48f42;
+}
