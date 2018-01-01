@@ -59,3 +59,7 @@ a:hover {
   margin: 0 auto;
   text-align: justify;
 }
+
+th {
+  text-align: center
+}
