@@ -3,6 +3,14 @@ body {
   margin: 0;
 }
 
+@media all and (max-width: 1050px) {
+    .jumbotron .container{
+        padding-top: 15%;
+    } .jumbotron h1 {
+      font-size: 60px;
+    }
+}
+
 .jumbotron a {
   color:inherit;
   text-decoration: none;
@@ -15,10 +23,11 @@ a:hover {
 
 .jumbotron {
   height: 100vh;
+  /* height: 100%; */
   background: #25282d;
   color: #FFFF;
   padding-top: 15%;
-  min-height: 350px;
+  /* min-height: 350px; */
 }
 
 .jumbo-btn {
