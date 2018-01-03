@@ -9,6 +9,10 @@ body {
     } .jumbotron h1 {
       font-size: 60px;
     }
+
+    .about p {
+      width: 80%;
+    }
 }
 
 .jumbotron a {
@@ -62,11 +66,10 @@ a:hover {
   color: #f48f42;1
 }
 
-
 .about p {
   width: 40%;
   margin: 0 auto;
-  text-align: justify;
+  text-align: left;
 }
 
 th {
