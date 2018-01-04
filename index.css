@@ -7,7 +7,10 @@ th {
   text-align: center
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 @media all and (max-width: 1050px) {
     h1 {
       font-size: 45px;
@@ -32,12 +35,22 @@ th {
     .about p {
       /* background: red; */
       min-width:90%;
+<<<<<<< HEAD
     }
 
     .lead p {
       font-size: 28px;
     }
 
+=======
+      font-size: 20px;
+    }
+
+    .lead p {
+      font-size: 28px;
+    }
+
+>>>>>>> dev
 
 }
 
@@ -62,13 +75,16 @@ a:hover {
   height: 100vh;
   /* height: 100%; */
   background: #25282d;
-  color: #FFFF;
+  color: white;
   padding-top: 15%;
   min-height: 500px;
+<<<<<<< HEAD
 }
 
 .about p {
   font-size: 20px;
+=======
+>>>>>>> dev
 }
 
 .jumbo-btn {
