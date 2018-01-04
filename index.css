@@ -7,15 +7,6 @@ th {
   text-align: center
 }
 
-<<<<<<< HEAD
-
-
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
 @media all and (max-width: 1050px) {
     h1 {
       font-size: 45px;
@@ -41,44 +32,17 @@ th {
 
       /* background: red; */
       min-width:90%;
-<<<<<<< HEAD
-
-
-=======
-<<<<<<< HEAD
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
     }
 
     .lead p {
       font-size: 28px;
     }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
-      font-size: 20px;
-
-      /* background: red; */
-      min-width:90%;
-
-    }
-
-    .lead p {
-      font-size: 28px;
-    }
-
-<<<<<<< HEAD
-=======
->>>>>>> dev
-
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
 }
 
 @media all and (max-height: 500px) {
   .jumbotron .container {
     padding-top: 0;
-    /* background: blue; */
   }
 }
 
@@ -99,20 +63,13 @@ a:hover {
   color: #FFFF;
   padding-top: 15%;
   min-height: 500px;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
 }
 
 .about p {
   font-size: 20px;
-<<<<<<< HEAD
+
   /* min-height: 350px; */
-=======
-=======
->>>>>>> dev
->>>>>>> 0002a71aabd977cad03f1ed45a2cd1e6f713183f
+
 }
 
 .jumbo-btn {
