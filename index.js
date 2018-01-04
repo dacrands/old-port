@@ -2,14 +2,7 @@
 var automation =  "Automation";
 document.getElementById("automation");
 
-console.log(automation);
 
-// function typer() {
-//   for(i=0; i<automation.length; i++){
-//     document.getElementById("automation").innerHTML += automation[i];
-//     setTimeout(typer, 500);
-//   }
-// }
 
 // Taken from w3schools
 // I don't feel good about what I am about to do
@@ -33,7 +26,7 @@ function typeWriter() {
 }
 
 var i2 = 0;
-var txt2 = 'Data Stuffs';
+var txt2 = 'Data Stuff';
 speed2 = 250;
 
 function typeWriter2() {
