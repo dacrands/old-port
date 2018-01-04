@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+th {
+  text-align: center
+}
+
+
 @media all and (max-width: 1050px) {
     h1 {
       font-size: 45px;
@@ -27,7 +32,6 @@ body {
     .about p {
       /* background: red; */
       min-width:90%;
-      font-size: 20px;
     }
 
     .lead p {
@@ -61,6 +65,10 @@ a:hover {
   color: #FFFF;
   padding-top: 15%;
   min-height: 500px;
+}
+
+.about p {
+  font-size: 20px;
 }
 
 .jumbo-btn {
@@ -99,8 +107,4 @@ a:hover {
   width: 40%;
   margin: 0 auto;
   text-align: left;
-}
-
-th {
-  text-align: center
 }
