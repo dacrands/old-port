@@ -3,30 +3,12 @@ body {
   margin: 0;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fixer
 th {
   text-align: center
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
-=======
 
 
-
->>>>>>> fix
-=======
->>>>>>> parent of 4b82c62... Removed extraneous css-stylings, fixed Jumbotron color.
-=======
-
->>>>>>> fixer
 @media all and (max-width: 1050px) {
     h1 {
       font-size: 45px;
@@ -49,50 +31,28 @@ th {
     }
 
     .about p {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
       /* background: red; */
       min-width:90%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> fix
+
     }
 
     .lead p {
       font-size: 28px;
     }
 
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> fix
       font-size: 20px;
-=======
+
       /* background: red; */
       min-width:90%;
->>>>>>> fixer
+
     }
 
     .lead p {
       font-size: 28px;
-<<<<<<< HEAD
     }
 
->>>>>>> dev
-
-
-=======
-      width: 80%;
-    }
->>>>>>> parent of 4b82c62... Removed extraneous css-stylings, fixed Jumbotron color.
-=======
-    }
-
-
->>>>>>> fixer
 }
 
 @media all and (max-height: 500px) {
@@ -119,27 +79,11 @@ a:hover {
   color: #FFFF;
   padding-top: 15%;
   min-height: 500px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fixer
 }
 
 .about p {
   font-size: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dev
-=======
-
->>>>>>> fix
-=======
-  min-height: 350px;
->>>>>>> parent of 4b82c62... Removed extraneous css-stylings, fixed Jumbotron color.
-=======
->>>>>>> fixer
+  /* min-height: 350px; */
 }
 
 .jumbo-btn {
