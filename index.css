@@ -5,7 +5,15 @@ body {
 
 @media all and (max-width: 1050px) {
     h1 {
-      font-size: 50px;
+      font-size: 45px;
+    }
+
+    thead {
+      font-size: 24px;
+    }
+
+    td {
+      font-size: 18px;
     }
 
     .jumbotron .container{
@@ -22,9 +30,10 @@ body {
       font-size: 20px;
     }
 
-    td {
-      font-size: 18px;
+    .lead p {
+      font-size: 28px;
     }
+
 
 }
 
