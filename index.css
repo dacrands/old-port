@@ -28,7 +28,7 @@ body {
 
 }
 
-@media all and (max-height: 700px) {
+@media all and (max-height: 500px) {
   .jumbotron .container {
     padding-top: 0;
     /* background: blue; */
