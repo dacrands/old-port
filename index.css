@@ -4,16 +4,26 @@ body {
 }
 
 @media all and (max-width: 1050px) {
+    h1 {
+      font-size: 50px;
+    }
+
     .jumbotron .container{
         padding-top: 15%;
-    } h1 {
+    }
+
+    h1 .jumbotron{
       font-size: 60px;
     }
 
     .about p {
       /* background: red; */
-      min-width:80%;
-      font-size: 32px;
+      min-width:90%;
+      font-size: 22px;
+    }
+
+    td {
+      font-size: 18px;
     }
 
 }
