@@ -3,19 +3,45 @@ body {
   margin: 0;
 }
 
+th {
+  text-align: center
+}
+
 @media all and (max-width: 1050px) {
+    h1 {
+      font-size: 45px;
+    }
+
+    thead {
+      font-size: 24px;
+    }
+
+    td {
+      font-size: 18px;
+    }
+
     .jumbotron .container{
         padding-top: 15%;
-    } .jumbotron h1 {
+    }
+
+    h1 .jumbotron{
       font-size: 60px;
     }
 
     .about p {
-      width: 80%;
+      /* background: red; */
+      min-width:90%;
+      font-size: 20px;
     }
+
+    .lead p {
+      font-size: 28px;
+    }
+
+
 }
 
-@media all and (max-height: 700px) {
+@media all and (max-height: 500px) {
   .jumbotron .container {
     padding-top: 0;
     /* background: blue; */
@@ -36,9 +62,9 @@ a:hover {
   height: 100vh;
   /* height: 100%; */
   background: #25282d;
-  color: #FFFF;
+  color: white;
   padding-top: 15%;
-  min-height: 350px;
+  min-height: 500px;
 }
 
 .jumbo-btn {
@@ -77,8 +103,4 @@ a:hover {
   width: 40%;
   margin: 0 auto;
   text-align: left;
-}
-
-th {
-  text-align: center
 }
