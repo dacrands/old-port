@@ -56,11 +56,11 @@ a:hover {
     }
 
     .about p {
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .about-text {
-      padding: 0;
+      padding: 10px;
       margin: 0;
     }
 
@@ -115,7 +115,6 @@ a:hover {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  z-index: -1;
 
 }
 
@@ -129,7 +128,6 @@ a:hover {
   background: white;
   color: black;
   padding: 40px;
-  z-index: -1;
 }
 
 #particles-js canvas {
@@ -154,21 +152,6 @@ a:hover {
   margin: 10 auto;
 }
 
-.python-box {
-  color: #5361ad;
-}
-
-.js-box {
-  color: #338a8c;
-}
-
-.html-box {
-  color: #853799;
-}
-
-.css-box {
-  color: #f48f42;
-}
 
 /* =============
   CAROUSEL
@@ -213,10 +196,4 @@ a:hover {
 .carousel-indicators .active {
   background: orange;
   opacity: 1;
-}
-
-
-
-.frameworks {
-  /* background: blue; */
 }
