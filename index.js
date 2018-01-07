@@ -64,7 +64,7 @@ $(".skills-button").click(function(){
 });
 
 $(".about-button").click(function(){
-    var aboutHeight = $(".about").offset().top - 40;
+    var aboutHeight = $(".about").offset().top - 80;
     $("body, html").animate({
       scrollTop: aboutHeight
     }, 500);

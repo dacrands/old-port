@@ -1,14 +1,24 @@
 body {
   padding: 0;
   margin: 0;
+  background: #25282d;
+  color: #d9dfe0;
 
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 0px 0px 10px black;
 }
 
 th {
-  text-align: center
+  text-align: center;
+  color: #25282d;
 }
 
 table {
+  color: black;
+  background: white;
   font-size: 24px;
   box-shadow: 0px 0px 10px black;
 }
@@ -42,6 +52,7 @@ a:hover {
 
     .about {
       min-width:90%;
+      margin: 0 auto;
     }
 
     .about p {
@@ -67,11 +78,15 @@ a:hover {
   height: 100vh;
   /* height: 100%; */
   background: #25282d;
-  color: white;
+  color: #d9dfe0;
   padding-top: 15%;
   padding-bottom: 0;
   margin-bottom: 0;
   min-height: 500px;
+}
+
+.jumbotron h1 {
+  text-shadow: none;
 }
 
 .jumbotron a {
@@ -85,11 +100,6 @@ a:hover {
 }
 
 
-
-.jumbotron a {
-  /* opacity: 0; */
-}
-
 .jumbo-btn {
   padding-top: 30px;
 }
@@ -99,25 +109,40 @@ a:hover {
 ============= */
 
 .about {
-  /* box-shadow: 0px 0px 10px black; */
-  padding-top: 20px;
-  padding-bottom: 50px;
+  padding: 45px;
   width: 40%;
   margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  z-index: -1;
+
 }
 
 .about p {
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
-
 }
+
+.about-text {
+  box-shadow: 0px 0px 30px black;
+  background: white;
+  color: black;
+  padding: 40px;
+  z-index: -1;
+}
+
+#particles-js canvas {
+  position:absolute;
+}
+
 
 /* =============
     SKILLS
 ============= */
 
 .skills{
-  padding-top: 50px;
+  /* padding-top: 50px; */
+  margin-top: 0;
 }
 
 .skill {
@@ -187,4 +212,10 @@ a:hover {
 .carousel-indicators .active {
   background: orange;
   opacity: 1;
+}
+
+
+
+.frameworks {
+  /* background: blue; */
 }
