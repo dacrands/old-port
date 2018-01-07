@@ -8,6 +8,11 @@ th {
   text-align: center
 }
 
+table {
+  font-size: 24px;
+  box-shadow: 0px 0px 10px black;
+}
+
 a:hover {
   color:orange;
   text-decoration: none;
@@ -22,9 +27,6 @@ a:hover {
       font-size: 45px;
     }
 
-    thead {
-      font-size: 24px;
-    }
 
     td {
       font-size: 18px;
