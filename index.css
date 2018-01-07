@@ -37,7 +37,6 @@ a:hover {
       font-size: 45px;
     }
 
-
     td {
       font-size: 18px;
     }
@@ -50,17 +49,19 @@ a:hover {
       font-size: 60px;
     }
 
-    .about {
-      min-width:90%;
+    .about{
+      min-width:100%;
       margin: 0 auto;
+      padding: 0%;
     }
 
     .about p {
-      font-size: 22px;
+      font-size: 20px;
     }
 
-    .lead p {
-      font-size: 20px;
+    .about-text {
+      padding: 0;
+      margin: 0;
     }
 
 }
