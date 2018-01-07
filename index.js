@@ -57,14 +57,14 @@ typeWriter();
 
 // Button
 $(".skills-button").click(function(){
-    var skillsHeight = $(".skills").offset().top - 50;
+    var skillsHeight = $(".skills").offset().top - 20;
     $("body, html").animate({
       scrollTop: skillsHeight
     }, 500);
 });
 
 $(".about-button").click(function(){
-    var aboutHeight = $(".about").offset().top - 50;
+    var aboutHeight = $(".about").offset().top - 20;
     $("body, html").animate({
       scrollTop: aboutHeight
     }, 500);
