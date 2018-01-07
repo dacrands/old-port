@@ -54,8 +54,16 @@ function typeWriter3() {
 
 typeWriter();
 
+
 // Button
-$(".python-button").click(function(){
+$(".skills-button").click(function(){
+    var skillsHeight = $(".skills").offset().top - 50;
+    $("body, html").animate({
+      scrollTop: skillsHeight
+    }, 500);
+});
+
+$(".about-button").click(function(){
     var aboutHeight = $(".about").offset().top - 50;
     $("body, html").animate({
       scrollTop: aboutHeight
