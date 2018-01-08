@@ -20,12 +20,12 @@ table {
   background: white;
   font-size: 24px;
   box-shadow: 0px 0px 10px black;
-
 }
 
 th {
   text-align: center;
   color: #404449;
+  font-size: 28px;
 }
 
 td {
