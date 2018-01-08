@@ -16,11 +16,16 @@ th {
   color: #25282d;
 }
 
+.nav {
+  font-size: 16px;
+}
+
 table {
   color: black;
   background: white;
   font-size: 24px;
   box-shadow: 0px 0px 10px black;
+  font-family: 'PT Serif', sans-serif;
 }
 
 a:hover {
