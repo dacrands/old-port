@@ -3,7 +3,7 @@ body {
   margin: 0;
   background: #25282d;
   color: #d9dfe0;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -121,6 +121,7 @@ a:hover {
 .about p {
   font-size: 20px;
   text-align: left;
+
 }
 
 .about-text {
@@ -129,6 +130,7 @@ a:hover {
   background: white;
   color: black;
   padding: 40px;
+  font-family: 'PT Serif', sans-serif;
 }
 
 #particles-js canvas {
