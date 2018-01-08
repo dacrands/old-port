@@ -11,12 +11,6 @@ h1 {
   text-shadow: 0px 0px 10px black;
 }
 
-th {
-  text-align: center;
-  color: #25282d;
-  font-family: 'Poppins', sans-serif;
-}
-
 .nav {
   font-size: 16px;
 }
@@ -26,7 +20,22 @@ table {
   background: white;
   font-size: 24px;
   box-shadow: 0px 0px 10px black;
+
+}
+
+th {
+  text-align: center;
+  color: #404449;
+}
+
+td {
   font-family: 'PT Serif', sans-serif;
+}
+
+table {
+  color: black;
+  font-size: 24px;
+  box-shadow: 0px 0px 10px black;
 }
 
 a:hover {
