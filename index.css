@@ -52,7 +52,7 @@ a:hover {
     .about{
       min-width:100%;
       margin: 0 auto;
-      padding: 0%;
+      padding: 0px;
     }
 
     .about p {
@@ -125,6 +125,7 @@ a:hover {
 
 .about-text {
   box-shadow: 0px 0px 30px black;
+  box-shadow: inset 0px 0px 30px black;
   background: white;
   color: black;
   padding: 40px;
