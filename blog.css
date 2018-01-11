@@ -5,6 +5,10 @@ body {
 
 }
 
+.navbar {
+  font-family: 'Dosis', sans-serif;
+}
+
 /* =============
   PARTICLES
 ============= */
