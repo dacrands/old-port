@@ -33,13 +33,13 @@ canvas {
   margin-right: auto;
   left: 32vw;
   /* right: 0; */
-  top: 15%;
+  top: 35%;
   color: #c5c1cc;
   text-shadow: 5px 5px 15px black;
 }
 
 .landing h1 {
-  padding-right: 15px;
+  padding-right: 25px;
   font-size: calc(1.5em + 3vmin);
 }
 
