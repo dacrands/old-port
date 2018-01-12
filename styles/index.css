@@ -58,8 +58,8 @@ a:hover {
         padding-top: 15%;
     }
 
-    h1 .jumbotron{
-      font-size: 60px;
+    .jumbotron h1{
+      font-size: 45px;
     }
 
     .about{
