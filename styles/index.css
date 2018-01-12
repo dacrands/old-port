@@ -50,6 +50,10 @@ a:hover {
 
 @media all and (max-width: 1050px) {
 
+    h1 {
+      font-size: 45px;
+    }
+
     td {
       font-size: 18px;
     }
@@ -58,9 +62,6 @@ a:hover {
         padding-top: 15%;
     }
 
-    .jumbotron h1{
-      font-size: 45px;
-    }
 
     .about{
       min-width:100%;
