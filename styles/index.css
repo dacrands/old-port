@@ -80,7 +80,7 @@ a:hover {
 
 }
 
-@media all and (max-height: 500px) {
+@media all and (max-height: 720px) {
   .jumbotron .container {
     padding-top: 0;
   }
