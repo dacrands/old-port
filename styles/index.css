@@ -1,25 +1,26 @@
 body {
   padding: 0;
   margin: 0;
-  background: #25282d;
-  color: #d9dfe0;
+  background: #c7c5c9;
+  /* color: #d9dfe0; */
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
   font-size: 60px;
-  text-shadow: 0px 0px 10px black;
+  text-shadow: 1.5px 0.5px 2px black;
+  font-weight: bold;
 }
 
-.nav {
+/* .nav {
   font-size: 16px;
-}
+} */
 
 table {
   color: black;
   background: white;
   font-size: 24px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px #38373a;
 }
 
 th {
@@ -48,9 +49,6 @@ a:hover {
 ============= */
 
 @media all and (max-width: 1050px) {
-    h1 {
-      font-size: 45px;
-    }
 
     td {
       font-size: 18px;
@@ -103,6 +101,7 @@ a:hover {
 
 .jumbotron h1 {
   text-shadow: none;
+  font-weight: normal;
 }
 
 .jumbotron a {
@@ -133,6 +132,10 @@ a:hover {
 
 }
 
+.about h1{
+  color: #7933b7;
+}
+
 .about p {
   font-size: 20px;
   text-align: left;
@@ -140,8 +143,8 @@ a:hover {
 }
 
 .about-text {
-  box-shadow: 0px 0px 30px black;
-  box-shadow: inset 0px 0px 30px black;
+  /* box-shadow: 0px 0px 30px black; */
+  box-shadow: 0px 0px 10px black;
   background: white;
   color: black;
   padding: 40px;
@@ -168,6 +171,14 @@ a:hover {
   padding-right: 0;
   min-height: 100px;
   margin: 10 auto;
+}
+
+.frameworks h1 {
+  color: #1f9191;
+}
+
+#github {
+  color: #4a4c4c;
 }
 
 

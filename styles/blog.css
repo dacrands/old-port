@@ -1,13 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
-.navbar {
-  font-family: 'Dosis', sans-serif;
-}
 
 /* =============
   PARTICLES
@@ -47,11 +44,16 @@ canvas {
   font-size: calc(1.5em + 3vmin);
 }
 
+
 .content {
   padding-top: 50vh;
-  width: 50%;
+}
+
+.blog {
+  width: 40%;
   margin: 0 auto;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'PT Serif', sans-serif;
+  padding-bottom: 1em;
 }
 
 
@@ -66,7 +68,7 @@ canvas {
   .landing {
     left: 15vw;
   }
-  .content {
+  .blog {
     width: 90%;
   }
 
