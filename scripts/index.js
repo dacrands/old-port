@@ -55,7 +55,7 @@ function typeWriter3() {
 typeWriter();
 
 
-// Button
+// Buttons
 $(".skills-button").click(function(){
     var skillsHeight = $(".skills").offset().top - 20;
     $("body, html").animate({
