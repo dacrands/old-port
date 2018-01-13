@@ -78,6 +78,10 @@ a:hover {
       margin: 0;
     }
 
+    .github {
+      padding-top: 45px;
+    }
+
 }
 
 @media all and (max-height: 600px) {
@@ -128,8 +132,8 @@ a:hover {
   padding: 45px;
   width: 40%;
   margin: 0 auto;
-  margin-top: 0px;
-  margin-bottom: 50px;
+  /* margin-top: 0px;
+  margin-bottom: 30px; */
 }
 
 .about h1{
