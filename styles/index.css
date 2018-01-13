@@ -134,7 +134,7 @@ a:hover {
   padding: 45px;
   width: 40%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -160,10 +160,6 @@ a:hover {
   font-family: 'PT Serif', sans-serif;
 }
 
-#particles-js canvas {
-  position:absolute;
-}
-
 
 /* =============
     SKILLS
@@ -182,15 +178,9 @@ a:hover {
   margin: 10 auto;
 }
 
-.frameworks h1 {
+.skills-table h1 {
   color:#4a4c4c;
 }
-
-/* green #2f997c  */
-
-/* #github {
-  color: #4a4c4c;
-} */
 
 
 /* =============
