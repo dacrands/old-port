@@ -17,10 +17,6 @@ hr {
   border-color: #b8baba;
 }
 
-/* .nav {
-  font-size: 16px;
-} */
-
 table {
   color: black;
   background: white;
@@ -67,7 +63,6 @@ a:hover {
         padding-top: 15%;
     }
 
-
     .about{
       min-width:100%;
       margin: 0 auto;
@@ -79,7 +74,7 @@ a:hover {
     }
 
     .about-text {
-      padding: 10px;
+      padding: 0px;
       margin: 0;
     }
 
@@ -96,7 +91,6 @@ a:hover {
 ============= */
 .jumbotron {
   height: 100vh;
-  /* height: 100%; */
   background: #25282d;
   color: #d9dfe0;
   padding-top: 15%;
@@ -152,7 +146,6 @@ a:hover {
 }
 
 .about-text {
-  /* box-shadow: 0px 0px 30px black; */
   box-shadow: 0px 2px 5px #666768;
   background: white;
   color: black;
@@ -166,7 +159,6 @@ a:hover {
 ============= */
 
 .skills{
-  /* padding-top: 50px; */
   margin-top: 0;
 }
 
@@ -178,7 +170,7 @@ a:hover {
   margin: 10 auto;
 }
 
-.skills-table h1 {
+.skill-table h1 {
   color:#4a4c4c;
 }
 
@@ -189,10 +181,9 @@ a:hover {
 
 .carousel{
     background: rgb(255,255, 255);
-    /* margin-top: 20px; */
     align-items: center;
     padding-top: 0;
-    /* max-height:200px; */
+
 }
 
 .carousel-inner > .item > img {
