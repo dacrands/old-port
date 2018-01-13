@@ -1,4 +1,4 @@
-window.sr = ScrollReveal({reset: true});
+window.sr = ScrollReveal({reset: false});
 
 sr.reveal('.about-text', {duration:2000});
 sr.reveal('.frameworks', {duration:3000});
