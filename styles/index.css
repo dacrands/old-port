@@ -13,6 +13,10 @@ h1 {
   font-weight:  500;
 }
 
+hr {
+  border-color: #b8baba;
+}
+
 /* .nav {
   font-size: 16px;
 } */
