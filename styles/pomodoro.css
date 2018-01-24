@@ -1,0 +1,59 @@
+body {
+  color: #e8e9ed;
+  text-shadow: 1px 1px 3px #515456;
+  text-align: center;
+  padding-top: 10vh;
+  height: 100vh;
+  background: #2c3e50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.message {
+  margin-bottom: 5em;
+}
+
+.nav {
+  text-shadow: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+  text-shadow: none;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 70px;
+}
+
+button:focus {
+  outline:0;
+}
+
+button:visited {
+  outline: none;
+}
+
+.btn-group {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.change-time {
+  margin-bottom: 5em;
+}
+
+.change-time button {
+  background: none;
+  border: none;
+}
+
+.far-disabled {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}
